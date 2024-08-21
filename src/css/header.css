@@ -1,0 +1,33 @@
+li.pr-header-list-item {
+    padding: 1rem;
+}
+
+a.pr-header-list-link {
+    transition: all 1s linear;
+    width: 100%;
+    position: relative;
+    transition: all 0.2s linear;
+
+}
+
+a.pr-header-list-link:hover {
+    font-weight: 500;
+    color: var(--primary-color);
+}
+
+a.pr-header-list-link::after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 2px;
+    background-color: var(--primary-color);
+    position: absolute;
+    
+}
+
+a.pr-header-list-link:hover::after {
+
+
+    width: 100%;
+
+}

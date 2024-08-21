@@ -1,0 +1,82 @@
+section{
+    padding: 0 4rem;
+}
+.pr-panner{
+    align-items: start;
+    margin-top: 4rem ;
+}
+.pr-panner button{
+    margin-top: 1rem;
+}
+.pr-panner>div,.pr-about>div{
+    width: 50%;
+
+}
+
+.pr-panner__para{
+    max-width: 32rem;
+    font-weight: 400;
+    line-height: 20px;
+    color: #3D3D3D;
+}
+
+.pr-skills-specs{
+    justify-content: space-between;
+
+
+}
+.pr-skill-icon{
+    height: 2.5rem;
+    width: 2.5rem;
+    background-color: white;
+    color: darkgreen;
+    border-radius: 4px;
+    justify-content: center;
+    align-items: center;
+}
+.pr-section{
+    margin-top: 8rem;
+}
+.pr-about>div:last-child{
+padding-left: 4rem;;
+}
+.pr-project-introduction div:first-child{
+justify-content: space-between;
+align-items: center;
+}
+.pr-project-card{
+    width: 33%;
+    height: 300px;
+    background-color: var(--body-color);
+}
+.pr-project-card:not(.pr-project-card:first-child){
+    margin-left: 1rem;
+
+}
+.review{
+    background-color: #F5FCFF;
+}
+.review-card{
+    width: 33%;
+    height: 300px;
+    margin-right: 1rem;
+    align-items: center;
+    border: 1px solid #006B6A;
+    padding: 1rem;
+
+
+}
+.review-card>img{
+margin: 2rem;
+}
+.review-card-people{
+    display: flex;
+    margin: 2rem;
+}
+.review-card-people>img{
+    margin: 2rem;
+    margin-left: -1rem;
+}
+.review-card-people h4{
+margin: 45px -13px;
+}
