@@ -59,11 +59,14 @@ align-items: center;
 .review-card{
     width: 33%;
     height: 300px;
-    margin-right: 1rem;
     align-items: center;
     border: 1px solid #006B6A;
     padding: 1rem;
 
+
+}
+.review-card:not(.review-card:last-child){
+    margin-right: 1rem;
 
 }
 .review-card>img{
