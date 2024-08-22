@@ -56,8 +56,74 @@ section {
 
 .pr-project-card {
     width: 33%;
-    height: 300px;
-    background-color: var(--body-color);
+    height: 360px;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 0 32px rgba(0, 0, 0, 0.15);
+
+}
+
+.pr-project-card__image {
+    width: 100%;
+    height: 175px;
+    background-image: url("../assets/imgs/po-3.png");
+    background-size: cover;
+    background-position: top;
+    margin-bottom: 2.5rem;
+
+}
+
+.pr-project-card:nth-child(2) .pr-project-card__image {
+    background-image: url("../assets/imgs/po-protofolio.png");
+
+
+}
+
+.pr-project-card:nth-child(3) .pr-project-card__image {
+    background-image: url("../assets/imgs/po-2.png");
+
+
+}
+
+.pr-project-card__content {
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 0 1rem;
+}
+
+.pr-project-card__content>h5 {
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+
+.pr-project-card__content>a {
+    position: relative;
+    width: fit-content;
+    font-weight: bold;
+    text-transform: capitalize;
+    color: black;
+    display: flex;
+    align-items: center;
+}
+
+.pr-project-card__content>a::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 1px;
+    background-color: var(--primary-color);
+    bottom: -4px;
+}
+
+.pr-project-card__content>a svg {
+    width: 1.2rem;
+    height: 1.2rem;
+    transform: rotate(-35deg);
+    color: lightgreen;
+    margin-left: 4px;
 }
 
 .pr-project-card:not(.pr-project-card:first-child) {
@@ -69,7 +135,8 @@ section {
     background-color: var(--shade-color);
 }
 
-.pr-reviews-introduction {
+.pr-reviews-introduction,
+.pr-project-introduction {
     margin-bottom: 5rem;
 }
 
