@@ -177,3 +177,71 @@ section {
     margin: 4px;
 
 }
+
+.pr-contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.pr-contact>form {
+    margin-left: 11rem;
+}
+
+.contact-form {
+    justify-content: center;
+}
+
+.gap-x-8 {
+    column-gap: 2rem;
+    /* 16px */
+}
+
+.gap-y-8 {
+    row-gap: 2rem;
+}
+
+.col-span-3 {
+    grid-column: span 3 / span 3;
+}
+
+.pr-contact__options>label,
+.pr-contact__options select,
+.pr-contact__options textarea {
+    width: 100%;
+
+}
+
+.pr-contact__options {
+    margin-top: 2rem;
+}
+
+label[for="terms"] {
+    display: flex;
+    align-items: center;
+    justify-self: start;
+}
+
+label[for="terms"]>span {
+    margin-left: 12px;
+    font-weight: 500;
+    color: #3D3D3D;
+}
+
+input[type="checkbox"] {
+    border-radius: 8px;
+    border: 1px solid #3d3d3d;
+}
+
+form[action="example.html"] {
+    flex-direction: column;
+}
+
+form[action="example.html"]>button {
+    align-self: center;
+    margin-top: 1rem;
+    width: 8rem;
+    height: 3rem;
+
+}
